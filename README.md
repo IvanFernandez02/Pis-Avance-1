@@ -6,18 +6,14 @@ Primer Avance de Diagrama
 
 Creación de la paquete Sensores
 
-Creación de la clase Usuario:
-//Atributos
--password: string
--user: string
-
+Creación de la clase Dinanometro:
 //Metodos
-+cerrarSesion(): void
-+conectarBrazo(): boolean
-+iniciarSesion(): void
-+realizarMovimientos(): void
++calcularFuerza(): void
 
-Creación de la clase Error
+Creación de la clase SensorProximidad:
 //Metodos
-+detectarErrores(): String
-+notificarErrores(): String
++calcularDistancia(): void
+
+Creación de la clase Camara:
+-resolucion
++capturarVideo(): void
